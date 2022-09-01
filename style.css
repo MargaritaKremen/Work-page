@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #2f6db3d3;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    padding-inline: 20%;
+    margin: 50px auto;
+    background: url(/images/pexels-uri-espinosa-375374.jpg) no-repeat ;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color:#1c0738;
+  }
+  .center {
+    text-align: center;
+  }
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+    @media(max-width:576px){
+    h1 {
+      text-align: center;
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      color:#1c0738;  
+      font-size: 48px;
+  }
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color:#1c0738;  
+    font-size: 36px;
+}  
+}   
+p {
+    font-family: "Montserrat", sans-serif;
+    color:#1c0738;  
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+
+  } 
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }   
+  .img-fluid {
+    max-width: 90%;
+    height: auto;
+  }
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
